@@ -6,39 +6,6 @@
 h1{
 font-family: 'Castoro', serif;
 }
-.container
-{
-    padding-left: 2rem;
-    padding-right:2rem;
-
-}
-.container-centre
-{
-    max-width:300px;
-    margin: auto;
-
-}
-h1
-{
-    color:rgb(1, 1, 2);
-}
-.link
-{
-    text-decoration: none ;
-    padding: 0.5rem 1rem;
-}
-.primary-link 
-{
-background-color:var(--primary-color);
-color:seashell;
-border-radius: 0.5rem;
-}
-.secondary-link 
-{
-    background-color:var(--primary-color);
-    color:seashell;
-     border-radius: 0.5rem;
-    }
 .non-bullet
 {
 list-style: none;

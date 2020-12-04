@@ -107,29 +107,30 @@ font-size: 1.2em;
 }
 .project
 {
-list-style: none;
     color: rgb(80, 79, 79);
-
-    padding:0 10rem;
-    background-color:rgb(243, 229, 233);;
+    padding: 2rem 2rem;
+font-size: 1.2em;
+    background-color:rgb(253, 251, 252);;
     
-    font-size: 1.5em;
+    
 
-}
-.date
-{
-
-padding:0 0.5rem;
 }
 .link1
 {
-    color:seashell;
-font-size: 1.5rem;
+color:seashell;
+font-size: 1.2rem;
 text-decoration: none;
 background-color:var(--primary-color) ;
+margin-right: 3%;
+padding: 0.2rem 0.2rem;
 
 }
-.list1-item
+.list1
 {
+display: inline;
+list-style: none;
+padding-inline-start: 0%;
+}
+li{
     display: inline;
 }

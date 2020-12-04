@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
 :root{
-    --primary-color: hsla(317, 77%, 20%, 0.904);
+    --primary-color: hsla(317, 98%, 24%, 0.904);
     --secondary-color:grey;
 }
+body
+{
+    margin: 0%;
+}
 h1{
-font-family: 'Castoro', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .non-bullet
 {
@@ -14,7 +19,7 @@ margin: auto;
 .list-item-inline
 {
 display: inline;
-padding: 0rem 0.5rem;
+padding: 0rem 1rem;
 }
 .navigation
 {
@@ -28,6 +33,7 @@ border-bottom-right-radius: 1rem ;
 {
 color:seashell;
 font-size: 1.5rem;
+text-decoration: none;
 
 }
 .brand
@@ -47,7 +53,8 @@ font-size: 1.5rem;
 max-width: 400px;
 margin: auto;
 display: block;
-padding: 2rem;
+width: 100;
+padding:1rem;
 } 
 .hero-heading
 {
@@ -70,9 +77,10 @@ border-radius: 1rem;
 .section
 {
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
     margin-top: 2rem;
     font-size: 1.5em;
+ 
     background-color:  rgb(243, 229, 233);
 }
 .section2
@@ -80,14 +88,10 @@ border-radius: 1rem;
     margin-top: 2rem;
     background-color:white; 
     text-align: center;
-}
-.section2-heading
-{
-    
-    text-align: center;
     font-size: 1.5em;
-    
+    padding: 2rem;
 }
+
 .footer
 {
    
@@ -96,9 +100,35 @@ padding: 1rem;
 border-top-right-radius: 1rem ;
 color:white;
 text-align: center;
-font-size: 1.5em;
-
+font-size: 1.2em;
 
 }
+.section
+{
+list-style: none;
+    color: black;
 
+    padding:0 10rem;
+    background-color:rgb(243, 229, 233);;
+    
+    font-size: 1.5em;
+    display: block;
+
+}
+.date
+{
+
+padding:0 0.5rem;
+}
+.link1
+{
+    color:seashell;
+font-size: 1.5rem;
+text-decoration: none;
+background-color:var(--primary-color) ;
+
+}
+.list1-item
+{
+    display: inline;
 }

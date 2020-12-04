@@ -10,6 +10,7 @@ body
 }
 h1{
     font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 49, 49);
 }
 .non-bullet
 {
@@ -68,7 +69,7 @@ text-align: center;
 .hero.second-heading
 {
   
-color: black;
+    color: rgb(65, 62, 62);
 margin: auto;
 text-align: center;
 background-color: off white;
@@ -80,7 +81,7 @@ border-radius: 1rem;
     padding: 2rem;
     margin-top: 2rem;
     font-size: 1.5em;
- 
+ color:  rgb(80, 79, 79);
     background-color:  rgb(243, 229, 233);
 }
 .section2
@@ -90,6 +91,7 @@ border-radius: 1rem;
     text-align: center;
     font-size: 1.5em;
     padding: 2rem;
+    color:  rgb(80, 79, 79);
 }
 
 .footer
@@ -103,16 +105,15 @@ text-align: center;
 font-size: 1.2em;
 
 }
-.section
+.project
 {
 list-style: none;
-    color: black;
+    color: rgb(80, 79, 79);
 
     padding:0 10rem;
     background-color:rgb(243, 229, 233);;
     
     font-size: 1.5em;
-    display: block;
 
 }
 .date

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 
 :root{
-    --primary-color: hsla(317, 98%, 24%, 0.904);
+    --primary-color: hsla(317, 47%, 30%, 0.904);
     --secondary-color:grey;
 }
 body
@@ -12,6 +12,14 @@ h1{
     font-family: 'Montserrat', sans-serif;
     color: rgb(51, 49, 49);
 }
+p
+{
+font-size: 1.2em;
+}
+small
+{
+    font: 1rem;
+}
 .non-bullet
 {
 list-style: none;
@@ -20,7 +28,7 @@ margin: auto;
 .list-item-inline
 {
 display: inline;
-padding: 0rem 1rem;
+padding: 0rem 0.5rem;
 }
 .navigation
 {
@@ -33,7 +41,7 @@ border-bottom-right-radius: 1rem ;
 .navigation .link
 {
 color:seashell;
-font-size: 1.5rem;
+font-size: 1rem;
 text-decoration: none;
 
 }
@@ -108,8 +116,8 @@ font-size: 1.2em;
 .project
 {
     color: rgb(80, 79, 79);
-    padding: 2rem 2rem;
-font-size: 1.2em;
+    padding: 1rem 1rem;
+font-size: 1.3em;
     background-color:rgb(253, 251, 252);;
     
     
@@ -118,19 +126,20 @@ font-size: 1.2em;
 .link1
 {
 color:seashell;
-font-size: 1.2rem;
+font-size: 1rem;
 text-decoration: none;
-background-color:var(--primary-color) ;
-margin-right: 3%;
-padding: 0.2rem 0.2rem;
+background-color:rgb(112, 40, 85) ;
+margin-right: 1%;
+padding: 0.6rem 1rem;
+border-radius: 0.5rem;
 
 }
-.list1
+li
 {
 display: inline;
-list-style: none;
-padding-inline-start: 0%;
 }
-li{
-    display: inline;
+
+.primarylink
+{
+    border-radius: 2rem;
 }

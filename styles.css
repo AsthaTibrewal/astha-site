@@ -24,11 +24,13 @@ small
 {
 list-style: none;
 margin: auto;
+font-size: 1em;
 }
 .list-item-inline
 {
 display: inline;
 padding: 0rem 0.5rem;
+font-size: 1em;
 }
 .navigation
 {
@@ -54,7 +56,7 @@ text-decoration: none;
 .navigation-pills
 {
     text-align: right;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .hero-image
@@ -110,7 +112,7 @@ padding: 1rem;
 border-top-right-radius: 1rem ;
 color:white;
 text-align: center;
-font-size: 1.2em;
+font-size: 1em;
 
 }
 .project

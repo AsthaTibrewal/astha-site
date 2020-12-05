@@ -139,6 +139,7 @@ border-radius: 0.5rem;
 li
 {
 display: inline;
+
 }
 
 .primarylink
@@ -153,4 +154,5 @@ display: inline;
 {
 list-style: none;
 color:white;
+text-decoration: none;
 }

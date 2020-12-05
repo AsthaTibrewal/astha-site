@@ -118,11 +118,11 @@ font-size: 1em;
 .project
 {
     color: rgb(80, 79, 79);
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
 font-size: 1.3em;
-    background-color:rgb(253, 251, 252);;
+    background-color:rgb(255, 236, 246);;
     
-    
+    display: block;
 
 }
 .link1
@@ -144,4 +144,13 @@ display: inline;
 .primarylink
 {
     border-radius: 2rem;
+}
+.footer-pills
+{
+    color: wheat;
+}
+.footer-link
+{
+list-style: none;
+color:white;
 }

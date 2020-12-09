@@ -1,2 +1,6 @@
 # student protfolio
-soon you are going to see my protfolio
+## this is my complete protfolio
+## Project I have made:-
+1.CLI-APP using NodeJS.
+2.Translator using vanilla JS.
+3.App using React JS.
